@@ -1,6 +1,6 @@
 # <a href="https://ossamalouati.github.io" target="_blank">OssamaLouati.github.io</a>
 
-This is my personal website portfolio built using the template of <a href="https://github.com/smaranjitghose/awesome-portfolio-websites" target="_blank">awesome-portfolio-websites</a>.
+This is my personal website portfolio.
 
 Quite amusing if you're bored of the single-pdf-page resume.
 
