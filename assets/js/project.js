@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "INPT Clubs Service",
-    cardImage: "assets/images/project-page/clubregister.png",
+    cardImage: "assets/images/project-page/PINE.PNG",
     description:
       "A web solution for Clubs registration for INPT engineering students",
     tagimg: "",
