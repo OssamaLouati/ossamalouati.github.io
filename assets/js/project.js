@@ -15,6 +15,16 @@ const projects = [
       "https://github.com/OssamaLouati/Clubs-Registration-at-INPT",
     Githublink: "https://github.com/OssamaLouati/Clubs-Registration-at-INPT",
   },
+  {
+    title: "EventScroller",
+    cardImage: "assets/images/project-page/eventscroller.png",
+    description:
+      "A full stack web application for finding and sharing activities",
+    tagimg: "",
+    Previewlink:
+      "https://github.com/OssamaLouati/EventScroller-PFA",
+    Githublink: "https://github.com/OssamaLouati/EventScroller-PFA",
+  },
 ];
 
 // function for rendering project cards data
