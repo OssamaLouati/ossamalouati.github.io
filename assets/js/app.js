@@ -17,7 +17,7 @@ let header = $(`
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://files.catbox.moe/41iey0.pdf" target="blank">Resume</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://files.catbox.moe/kl2swn.pdf" target="blank">Resume</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
