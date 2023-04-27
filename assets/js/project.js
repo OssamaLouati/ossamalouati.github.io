@@ -6,6 +6,36 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "ClaimBook",
+    cardImage: "assets/images/project-page/claimbook.png",
+    description:
+      "A full stack web application for finding and sharing activities",
+    tagimg: "",
+    Previewlink:
+      "https://github.com/OssamaLouati/Claimbook-Project",
+    Githublink: "https://github.com/OssamaLouati/Claimbook-Project",
+  },
+  {
+    title: "CIT Web cell website",
+    cardImage: "assets/images/experience-page/cit.png",
+    description:
+      "a sophisticated website that presents INPT's CIT club activities and its cells and highlight upcoming events in the club",
+    tagimg: "",
+    Previewlink:
+      "https://citweb.live",
+    Githublink: "https://citweb.live",
+  },
+  {
+    title: "EventScroller",
+    cardImage: "assets/images/project-page/eventscroller.png",
+    description:
+    "A full stack web application for finding and sharing activities",
+    tagimg: "",
+    Previewlink:
+      "https://github.com/OssamaLouati/EventScroller-PFA",
+    Githublink: "https://github.com/OssamaLouati/EventScroller-PFA",
+  },
+  {
     title: "INPT Clubs Service",
     cardImage: "assets/images/project-page/PINE.PNG",
     description:
@@ -14,16 +44,6 @@ const projects = [
     Previewlink:
       "https://github.com/OssamaLouati/Clubs-Registration-at-INPT",
     Githublink: "https://github.com/OssamaLouati/Clubs-Registration-at-INPT",
-  },
-  {
-    title: "EventScroller",
-    cardImage: "assets/images/project-page/eventscroller.png",
-    description:
-      "A full stack web application for finding and sharing activities",
-    tagimg: "",
-    Previewlink:
-      "https://github.com/OssamaLouati/EventScroller-PFA",
-    Githublink: "https://github.com/OssamaLouati/EventScroller-PFA",
   },
 ];
 
