@@ -5,33 +5,28 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Data Science Intern",
-    cardImage: "./assets/images/experience-page/sysnav.png",
-    place: "SYSNAV",
-    time: "(July, 2021 - Present)",
+    title: "Software Engineering Intern",
+    cardImage: "./assets/images/experience-page/softcentre.png",
+    place: "SoftCentre",
+    time: "(July, 2022 - September, 2022)",
     desp: `
-    As part of the <b>Traffic Security</b> team, my missions were as follows:
+    As part of the <b>Product development</b> team, my missions were as follows:
     <ul>
-    <li><b>Retrieval, Processing and Visualization</b> of data from the <b>ELK Stack</b>.</li>
-    <li><b>Exploratory Data Analysis</b> of hundreds of millions of <b>Spatio-Temporal Data</b> points.</li>
-    <li>Study of <b>Statistical Forcasting</b> algorithms (parameterized and non parameterized).</li>
-    <li><b>Fine-Tuning</b> these algorithms for performance metrics Forecasting.</li>
-    <li><b>Deployment</b> of a platform (DashBoard) for <b>Monitoring, Visualisation and Forecasting</b>.</li>
+    <li><b>Testing and validation </b>the functionality and performance of the marketplace platform's web service and APIs to ensure they met the requirements and standards in favour of <b>Association Nationale des Ovins et Caprins (ANOC)</b>.</li>
+    <li><b>Identifying and tracking </b>defects, working closely with the development team to resolve issues and ensure timely delivery of high-quality software.</b> points.</li>
     </ul>
     `,
   },
   {
-    title: "Website Administrator",
-    cardImage: "./assets/images/experience-page/automatants.png",
-    place: "Automatants - Association d'IA de CentraleSupélec",
-    time: "(January, 2020 - December, 2020)",
+    title: "Web developer",
+    cardImage: "./assets/images/experience-page/rtc.jpg",
+    place: "Road To CNC",
+    time: "(July, 2022 - Present)",
     desp: `
-    On the campus of the <b>University of Paris Saclay</b>, I was responsible for:
+    As a former <b>CPGE Student and a user</b>, The platform aims to provide:
     <ul>
-    <li><b>Maintaining & Developping</b> the association's website.</li>
-    <li>Co-organising the association's annual event <b>Soirée de l'IA</b>.</li>
-    <li>Organising a <b>Lecture & Tutorial</b> about <b>CNN architectures</b>.</li>
-    <li>Organising a <b>Workshop</b> about the use of the <b>Google Colab</b>.</li>
+    <li>A comprehensive and centralized resource for CPGE students in Morocco, to help them prepare for the challenging entrance exam and improve their chances of gaining admission to <b>top engineering schools</b>.</li>
+    <li>During the examination period, there were over <b>2000 concurrent users</b>, which accounted for 57% of all CPGE students.</li>
     </ul>
     `,
   },
@@ -96,15 +91,15 @@ const showCards2 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards2);
 
-// Hackathon Section
+// club Section
 
-const hackathonsection = document.querySelector(".hackathon-section");
+const clubsection = document.querySelector(".club-section");
 const mentor = [
   {
-    title: "Huawei European University Challenge 2020",
-    subtitle: "Finalist",
-    image: "./assets/images/experience-page/huawei.png",
-    desp: "I participated alongside other great members of the Automatants Association to this DataThon where we learned a lot about optical modeling and used state of the art Deep Learning architectures to perform this task.",
+    title: "Head at the Web Cell",
+    subtitle: "Club Informatique & Télécom at INPT",
+    image: "./assets/images/experience-page/cit.png",
+    desp: "CIT club offers free courses given by INPT students in different sectors, mine was the web dev field in which i gave courses in the web development field for both 1st & 2nd year students at INPT.",
   },
 ];
 
@@ -121,11 +116,11 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
+          <a href="https://citweb.live" target="blank" class="blog-slider__button">Read More</a>   
         </div>
       </div>
       `)
   );
-  hackathonsection.innerHTML = output;
+  clubsection.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
